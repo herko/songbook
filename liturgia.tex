@@ -1,0 +1,19 @@
+\documentclass[a5paper, landscape]{article}
+
+\usepackage[top=1cm, left=1cm, bottom=1.5cm, right=1cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[chorded]{songs}
+\usepackage{hyperref}
+
+\newcommand{\songlink}[2]{\hyperlink{#1}{#2}}
+
+\columnsep=1.5cm
+
+\newindex{sermonsongsindex}{sermonsongsidx}
+
+% SERMON SONGS
+\includeonlysongs{5,1,7,4,3}
+
+\begin{document}
+  \include{sermon_songs}
+\end{document}
