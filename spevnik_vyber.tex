@@ -1,18 +1,19 @@
 \documentclass[a5paper, landscape]{article}
+%\documentclass[a4paper, portrait]{article}
 
-\usepackage[top=1cm, left=1cm, bottom=1.5cm, right=1cm]{geometry}
+\usepackage[top=1cm, left=1cm, bottom=1.2cm, right=1cm]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[chorded]{songs}
 \usepackage{hyperref}
 
-\newcommand{\songlink}[2]{\hyperlink{#1}{#2}}
+\renewcommand{\songlink}[2]{\hyperlink{#1}{#2}}
 
-\columnsep=1.5cm
+\columnsep=1cm
 
 \newindex{songsindex}{songsidx}
 
 % SELECTED SONGS
-\includeonlysongs{35,31,49,45,6}
+\includeonlysongs{72,71,6,67,64}
 
 \begin{document}
   \include{songs}
