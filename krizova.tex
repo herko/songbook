@@ -1,0 +1,22 @@
+\documentclass[a5paper, landscape]{article}
+%\documentclass[a4paper, portrait]{article}
+
+\usepackage[top=1cm, left=1cm, bottom=1.2cm, right=1cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[chorded]{songs}
+\usepackage{hyperref}
+
+\renewcommand{\songlink}[2]{\hyperlink{#1}{#2}}
+
+\columnsep=1cm
+
+\newindex{songsindex}{songsidx}
+
+% SELECTED SONGS
+\includeonlysongs{85}
+
+\begin{document}
+  \include{songs}
+\end{document}
+
+
